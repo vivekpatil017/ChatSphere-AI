@@ -28,9 +28,6 @@ const Login = () => {
 
     const { email, password } = formData;
 
-    console.log(email);
-    console.log(password);
-
     try{
 
     const response = await axios.post("http://localhost:3000/user/login", {
