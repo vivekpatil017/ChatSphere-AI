@@ -23,8 +23,7 @@ const Register = () => {
     e.preventDefault();
 
     const { email, password } = formData; 
-    console.log(email);
-    console.log(password);
+  
 
     try{
 
